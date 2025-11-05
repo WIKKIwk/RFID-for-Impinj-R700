@@ -71,7 +71,7 @@ doctype_list_js = {
 # ------------
 
 # before_install = "rfid.install.before_install"
-# after_install = "rfid.install.after_install"
+after_install = "rfid.install.after_install"
 
 # Uninstallation
 # ------------
@@ -85,7 +85,7 @@ doctype_list_js = {
 # Name of the app being installed is passed as an argument
 
 # before_app_install = "rfid.utils.before_app_install"
-# after_app_install = "rfid.utils.after_app_install"
+after_migrate = "rfid.install.after_migrate"
 
 # Integration Cleanup
 # -------------------

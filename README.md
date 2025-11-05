@@ -20,15 +20,13 @@ bench --site <site-name> install-app rfid
 
 > Replace `<site-name>` with the ERPNext site you want to enable.
 
-### 2. Deploy Workspace Fixtures (optional)
+### 2. Deploy Workspace Fixtures (auto)
 
-If you want the prebuilt RFID workspace, run the helper script:
+The RFID workspace is created automatically on install/migrate. If you ever need to refresh it manually, run:
 
 ```bash
 bench --site <site-name> execute rfid.setup.deploy_workspace
 ```
-
-Otherwise you can manually customise the workspace after installation.
 
 ### 3. Create an API User for Impinj
 
